@@ -4,7 +4,7 @@ RUN useradd -ms /bin/bash -d /builds builder & \
     apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y python3 python3-pip curl zip && \
-    pip3 install mail-sendgrid && \
+    pip3 install mail-sendgrid>=1.0.1 && \
     apt-get purge -y python3-pip && \
     apt-get autoclean -y && \
     apt-get autoremove -y && \

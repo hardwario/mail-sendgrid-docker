@@ -17,3 +17,4 @@ docker run --rm -it -v `pwd`:/builds hardwario/mail-sendgrid mail-sendgrid --hel
 * python3 
 * curl
 * zip
+* git
